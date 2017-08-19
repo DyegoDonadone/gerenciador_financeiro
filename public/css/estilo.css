@@ -1,0 +1,112 @@
+.footer {
+  width: 100%;
+  position: relative;
+  height: 50px;
+  clear:both;
+  bottom: 0;
+  text-align: center;
+} 
+
+.retiraMargem{
+	margin-left: -40px;
+}
+
+.btnModulos{
+	width: 100%;
+	border: none;
+}
+
+.btnModulosIcone {
+	margin-top: 3px;
+}
+/* Margens */
+
+.m-all {
+	margin: 5px;
+}
+
+.m-t-5 {
+	margin-top: 5px;
+}
+
+.m-l-5 {
+	margin-left: 5px;
+}
+.m-b-5 {
+	margin-bottom: 5px;
+}
+
+.m-r-5 {
+	margin-right: 5px;
+}
+
+.titulosCampos{
+	width: 10%;
+	float: left;
+}
+
+/* padding */
+
+.corretorExcluir {
+	padding-right: 2.5px;
+}
+
+.p-all {
+	padding: 5px;
+	border-style: solid;
+    border-width: 1px;
+}
+
+.p-all-1 {
+	padding: 2px;
+	border-style: solid;
+    border-width: 1px;
+}
+
+.m-all-1 {
+	margin: 5px;
+}
+
+.titulo{
+	font-size: 16px;
+	font-family: arial, verdana, tahoma;
+	font-weight: bold;
+}
+
+.bloqueado{
+	background-color: #ccc;
+	border-style: solid;
+    border-width: 1px;
+}
+.fa-ban{
+	color: #f00;
+}
+
+.positivo{
+	color: #080;
+}
+.negativo{
+	color: #f00;
+}
+
+
+@media (max-width: 600px){
+	.titulosCampos{
+		width: 25%;
+		float: left;
+	}
+
+	.alertas{
+		font-size: 12px;
+		text-align: center;
+		margin-top: 1px;
+		margin-bottom: 5px;
+		float: left;
+		color: #f00;
+		width: 100%;
+	}
+	.form{
+		display: flex;
+		flex-wrap: wrap;
+	}
+}
